@@ -4,7 +4,8 @@
 
 	<defaultCache maxElementsInMemory="100" eternal="false"
 		timeToIdleSeconds="500" timeToLiveSeconds="700" />
-	<cache name="org.stock.bo.Stock" maxElementsInMemory="500"
+	<cache name="stock" maxElementsInMemory="500"
 		eternal="false" timeToIdleSeconds="5" timeToLiveSeconds="700" />
+		
 
 </ehcache>

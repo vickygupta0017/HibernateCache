@@ -19,10 +19,11 @@ public class StockTest {
 		
 		
 		Stock stork3 = service.retrieveStock(stock.getStockId());
+		System.out.println("stock price "+stock.getMarketprice());
 		//it should get the entry from cache now
 		// so there should not be any database hit for this
 		Stock stork4 = service.retrieveStock(stock.getStockId());
-		System.out.println("a");
+		System.out.println("stock price "+stock.getMarketprice());
 	}
 
 }
